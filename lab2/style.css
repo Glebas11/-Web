@@ -1,0 +1,64 @@
+/* Основные стили */
+body {
+    background-color: #f0f0f5;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Убираем маркеры списка и подчеркивание ссылок */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+@font-face {
+    font-family: 'Ferrari';
+    src: url('fonts/5.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'One Life';
+    src: url('fonts/2.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'По Фрейду';
+    src: url('fonts/PoFreiduFont.ttf') format('truetype');
+}
+
+/* Применение шрифтов для всех элементов в секциях */
+.font1 {
+    font-family: 'Ferrari';
+      text-align: center;
+}
+
+.font2 {
+    font-family: 'One Life';
+    text-align: justify;
+}
+
+.font3 {
+    font-family: 'По Фрейду';
+    text-align: right;
+}
+
